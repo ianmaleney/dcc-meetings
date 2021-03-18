@@ -1,0 +1,20 @@
+{
+  "name": "council-meetings",
+  "version": "1.0.0",
+  "description": "Making Dublin City Council meetings available as podcasts and automatically transcribing them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.866.0",
+    "dotenv": "^8.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ibm-watson": "^6.0.3",
+    "node-fetch": "^2.6.1",
+    "podcast": "^1.3.0",
+    "rss-parser": "^3.12.0"
+  }
+}
